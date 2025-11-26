@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.DS_Store
+.env
+.venv/
+venv/
+ENV/
+.ipynb_checkpoints/
+
+# Data (keep large/raw data out of git)
+data/raw/**
+data/processed/**
+!data/raw/README.md
+!data/processed/README.md
+
+# Models
+models/**
+!models/README.md
+
+# Reports/plots
+reports/
+
+# OS / IDE
+Thumbs.db
+.vscode/
+.idea/
