@@ -17,6 +17,25 @@ Predicts a student's readiness (probability proxy) for placement in top MNCs bas
 
 ## Quickstart
 
+### Web Interface (Recommended)
+
+1) Install requirements and run the web app:
+
+```powershell
+# Install dependencies
+pip install -r requirements.txt
+
+# Train the models (first time only)
+python -m src.mnc_probability_analyzer.train
+
+# Launch the web interface
+streamlit run app.py
+```
+
+Then open your browser to `http://localhost:8501` to use the interactive web interface.
+
+### Command Line Interface
+
 1) Create and activate a virtual environment (Windows PowerShell):
 
 ```powershell
@@ -59,6 +78,14 @@ python -m src.mnc_probability_analyzer.cli --company Google \
 ```
 
 See `--help` on each module for options.
+
+## Web Interface Features
+
+- 🎯 Interactive sliders for easy input
+- 📊 Visual progress indicators
+- 📝 Personalized improvement suggestions
+- 📱 Mobile-responsive design
+- 🔄 Real-time predictions
 
 ## Notes
 
